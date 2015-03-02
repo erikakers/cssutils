@@ -1,0 +1,20 @@
+{
+  "name": "grids",
+  "version": "0.0.0",
+  "description": "A SCSS grid system with an awful name.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikakers/grids.git"
+  },
+  "keywords": [
+    "SCSS",
+    "responsive",
+    "grid"
+  ],
+  "author": "Erik Akers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikakers/grids/issues"
+  },
+  "homepage": "https://github.com/erikakers/grids"
+}
