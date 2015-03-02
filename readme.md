@@ -1,3 +1,3 @@
 # Grids
 
-A SCSS based responsive grid framework with and awful name. 
+A SCSS based responsive grid framework with an awful name. 
