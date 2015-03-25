@@ -1,3 +1,3 @@
-# Grids
+# CSSUtils
 
-A SCSS based responsive grid framework with an awful name. 
+CSS that I reused over and over again, also a terrible name. 
