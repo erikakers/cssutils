@@ -1,0 +1,38 @@
+// =============================================================================
+// Text Modifiers
+// =============================================================================
+
+.text {
+
+  &--left {
+    text-align: left;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--justify {
+    text-align: justify;
+  }
+
+  &--nowrap {
+    white-space: nowrap;
+  }
+
+  &--lowercase {
+    text-transform: lowercase;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--capitalize {
+    text-transform: capitalize;
+  }
+}
