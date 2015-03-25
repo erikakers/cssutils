@@ -1,0 +1,24 @@
+{
+  "name": "cssutils",
+  "version": "0.0.0",
+  "homepage": "https://github.com/erikakers/cssutils",
+  "authors": [
+    "Erik Akers <erikakers@gmail.com>"
+  ],
+  "description": "Anti CSS framework.",
+  "keywords": [
+    "CSS",
+    "SCSS",
+    "Grid",
+    "utilities"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests",
+  ]
+}
