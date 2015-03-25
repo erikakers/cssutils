@@ -1,15 +1,14 @@
 default:
   - 'sass'
   - 'watch'
+build:
+  - 'sass'
+  - 'cssmin'
 release:
-  - cssmin
   - bump
 release-minor:
-  - cssmin
   - bump:minor
 release-patch:
-  - cssmin
   - bump:patch
 release-major:
-  - cssmin
   - bump:major
