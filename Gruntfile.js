@@ -4,6 +4,7 @@
 
 module.exports = function(grunt) {
     "use strict";
+    
     var project = {
         paths: {
             dist: 'dist/',
