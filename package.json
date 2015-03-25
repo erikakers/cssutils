@@ -1,6 +1,6 @@
 {
   "name": "cssutils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Helpful and reusable CSS classes for all projects",
   "repository": {
     "type": "git",
