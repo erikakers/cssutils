@@ -8,10 +8,13 @@
   margin-right: auto;
 }
 
-.pull--right {
-  float: right !important;
-}
+.pull {
 
-.pull--left {
-  float: left !important;
+  &--right {
+    float: right !important;
+  }
+
+  &--left {
+    float: left !important;
+  }
 }
