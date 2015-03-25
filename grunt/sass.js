@@ -2,9 +2,9 @@ module.exports = {
     dev: {
         files: [{
             expand: true,
-            cwd: 'scss/',
+            cwd: '<%= paths.scss %>',
             src: ['*.scss'],
-            dest: 'dist/',
+            dest: '<%= paths.dist %>',
             ext: '.css'
         }]
     }
