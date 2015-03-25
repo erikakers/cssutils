@@ -2,9 +2,6 @@
 default:
   - 'sass'
   - 'watch'
-build:
-  - 'sass'
-  - 'cssmin'
 release:
   - bump
 release-minor:
