@@ -1,3 +1,4 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 article,
 aside,
 details,
@@ -187,5 +188,22 @@ input[type="search"] {
 input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+.center--block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.pull--right {
+  float: right !important; }
+
+.pull--left {
+  float: left !important; }
 
 /*# sourceMappingURL=cssutils.css.map */
