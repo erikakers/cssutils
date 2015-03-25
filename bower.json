@@ -5,11 +5,10 @@
   "authors": [
     "Erik Akers <erikakers@gmail.com>"
   ],
-  "description": "Anti CSS framework.",
+  "description": "Helpful CSS modifier classes for projects.",
   "keywords": [
+    "modifiers",
     "CSS",
-    "SCSS",
-    "Grid",
     "utilities"
   ],
   "license": "MIT",
@@ -19,6 +18,6 @@
     "bower_components",
     "vendor",
     "test",
-    "tests",
+    "tests"
   ]
 }
