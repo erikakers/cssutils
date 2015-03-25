@@ -1,2 +1,11 @@
 default:
   - 'sass'
+  - 'watch'
+release:
+  - bump
+release-minor:
+  - bump:minor
+release-patch:
+  - bump:patch
+release-major:
+  - bump:major
