@@ -1,0 +1,19 @@
+// Mixins to Create BEM classes.
+// TODO: Still undecided on these, thus living in a branch.
+// =============================================================================
+
+// Block Element
+// @param {String} $element - Element's Name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+// Block Modifier
+// @param {String} $modifier - Modifier's Name
+@mixin modifier($modifier) {
+  $--#{$modifier} {
+    @content;
+  }
+}
