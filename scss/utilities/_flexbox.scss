@@ -1,10 +1,16 @@
 // =============================================================================
-// Utility Classes
+// Flexbox Modifiers
 // =============================================================================
 
-@import "border-box";
-@import "clearfix";
-@import "floats";
-@import "lists";
-@import "text";
-@import "flexbox";
+.flex{
+  display: flex;
+
+  &--alignV{
+    align-items: center;
+  }
+
+  &--alignVH {
+    align-items: center;
+    justify-content: center;
+  }
+}
