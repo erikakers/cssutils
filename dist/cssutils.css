@@ -6,11 +6,8 @@
  */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  -webkit-text-size-adjust: 100%; }
 
 /**
  * Remove default margin.
@@ -359,11 +356,13 @@ th {
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit; }
 
 .clearfix:before, .clearfix:after {
-  content: " ";
+  content: ' ';
   display: table; }
 .clearfix:after {
   clear: both; }
@@ -379,12 +378,12 @@ html {
   float: left !important; }
 
 .list--unstyled {
-  padding-left: 0;
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 .list--inline {
-  padding-left: 0;
+  list-style: none;
   margin-left: -5px;
-  list-style: none; }
+  padding-left: 0; }
   .list--inline li {
     display: inline-block; }
 
@@ -404,5 +403,19 @@ html {
   text-transform: uppercase; }
 .text--capitalize {
   text-transform: capitalize; }
+
+.hidden {
+  display: none !important; }
+
+.visible {
+  display: block !important; }
+
+.invisible {
+  visibility: hidden; }
+
+.overflow--hidden {
+  overflow: hidden; }
+.overflow--scroll {
+  overflow: scroll; }
 
 /*# sourceMappingURL=cssutils.css.map */
